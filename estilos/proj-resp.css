@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+
+:root{
+    --cor01: ;
+    --cor02: ;
+
+    --fonte-Padrao:'Raleway', sans-serif;;
+
+}
+
+
+body{
+    text-align: center;
+}
+
+body h1{
+    padding-bottom: 30px;
+}
+
+
+section img{
+    background-size: cover;
+    width: 26em;
+    height: 19em;
+}
+
+#n1, #n2, #n3, #n4{
+   box-shadow: 0px 1px 33px purple;
+    padding: 20px;
+    margin: 10px;
+}
+
+.projetos{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+@media screen and (min-width:900px){
+
+    .buttons{
+        display: none;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .projetos{
+        display: flex;
+        justify-content: center;
+       
+       
+    }
+
+    .projetos img{
+
+        background-size: cover;
+        width: 21em;
+        height: 10em;
+
+    }
+
+    .imgs{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 55em;
+
+    }
+
+}

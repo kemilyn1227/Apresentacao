@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+
+:root{
+    --cor01: ;
+    --cor02: ;
+
+    --fonte-Padrao:'Raleway', sans-serif;;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-Padrao);
+    
+    
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 35px;
+    
+}
+
+hr{
+    width: 8em;
+}
+
+p{
+   justify-content: center;
+   width: 25em;
+   letter-spacing: 3px;
+   padding-top: 4em;
+   text-align: justify;
+}
+
+footer{
+    padding-top: 10px;
+}
+footer img{
+
+    
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+footer img:hover {
+    box-shadow: -5px 5px 23px purple;
+}
+
+.cursos img{
+    width: 4em;
+    border-radius: 30%;
+    height: 4em;
+}
+
+.cursos img:hover{
+
+    box-shadow: -5px 5px 23px purple;
+
+}
+
+hr{
+    display: block;
+    width: 22em;
+    margin-top: 10px;
+   
+}
+
+section h1{
+    padding-top: 7px;
+}
+
+section p {
+
+    padding-bottom: 1em;
+
+}
+
+.hidden{
+    display: none;
+}
+
+@media screen and (min-width:900px) {
+
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .hidden{
+        display: block;
+    }
+   
+    .box1{
+        display: block;
+        position: absolute;
+        top: 80% ;
+        left: 42%;
+        transform: translate(-50%,-50%);
+        padding: 15px;
+    }
+
+    .box1  circle:nth-child(2){
+        stroke-dashoffset: 34;
+        stroke: aqua;
+        border-radius: 20px;
+    }
+
+    .box2{
+
+        display: block;
+        position: absolute;
+        top: 80% ;
+        left: 25%;
+        transform: translate(-50%,-50%);
+        padding: 15px;
+        
+    }
+
+    .box2  circle:nth-child(2){
+        stroke-dashoffset: 15;
+        stroke: aqua;
+        border-radius: 20px;
+    }
+
+    .box3{
+
+        display: block;
+        position: absolute;
+        top: 80% ;
+        left: 8%;
+        transform: translate(-50%,-50%);
+        padding: 15px;
+        
+    }
+
+    .box3  circle:nth-child(2){
+        stroke-dashoffset: 95;
+        stroke: aqua;
+        border-radius: 20px;
+    }
+
+     .box-circle svg{
+        
+        rotate: -90deg;
+        width: 97px;
+        height: 95px;
+        position: relative;
+
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    circle{
+        width: 150px;
+        height: 150px;
+        fill: none; /*cor de fundo */
+        stroke:black;
+        stroke-width: 4;
+        transform: translate(38px, 58px);
+        stroke-dasharray: 190;
+        stroke-dashoffset:440 ; /*distancia entre o inicio e fim */
+      
+    }
+
+    circle:nth-child(1){
+        
+        stroke-dashoffset: 0;
+        stroke: gray;
+    }
+
+
+
+    .number{
+        transform: translate(9px, -50px);
+    }
+
+    .number h2{
+        font-size: 15px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    #redes2{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+       
+    }
+
+    #redes2 img{
+    
+        width: 61px;
+        height: 62px;
+        padding: 12px;
+        margin-top: 56px;
+        border-radius: 57px
+    }
+
+    #redes2 img:hover{
+        box-shadow: -5px 5px 23px purple;
+    }
+
+    .cursos{
+
+        position: absolute;
+        top: 75%;
+        left: 65%;
+       letter-spacing: -3px;
+       text-align: center;
+    }
+
+    .cursodiv{
+        padding-right: 2%;
+
+    }
+
+    .cursodiv p {
+        padding-left: 2%;
+        width: 19em;
+    }
+    
+
+   
+
+    #hrcursos{
+        display: none;
+    }
+
+    .intro{
+        padding: 3%;
+    }
+
+}

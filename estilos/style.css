@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+
+:root{
+    --cor01: ;
+    --cor02: ;
+
+    --fonte-Padrao:'Raleway', sans-serif;;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-Padrao);
+    
+    
+}
+
+body{
+    background-color: rgb(31, 30, 30);
+    color: rgb(238, 235, 235);
+}
+
+nav{
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    padding-right: 20px;
+}
+
+span{
+    color: rgb(246, 245, 247);
+   
+}
+#proj{
+    transform: rotate(40deg);
+    transition: 0s;
+    
+}
+
+span:hover{
+    box-shadow: 3px 4px 16px rgb(2, 145, 170);
+    transition: 2s;
+    transform: rotate(80deg);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.content{
+    
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.p1{
+    padding-top: 40px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    font-size: 25px;
+
+}
+
+.p2{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+
+.imagem{
+    text-align: center;
+    position: relative;
+    height: 319px;
+    
+}
+
+.imagem img{
+
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    box-shadow: 3px 9px 56px rgb(146, 26, 170);
+
+    position: absolute;
+    top: 22%;
+    left: 31%;
+
+}
+
+hr{
+    display: none;
+}
+
+
+
+

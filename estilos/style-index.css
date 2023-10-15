@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+
+:root{
+    --cor01: ;
+    --cor02: ;
+
+    --fonte-Padrao:'Raleway', sans-serif;;
+
+}
+
+@media screen and (min-width:900px) {
+
+    .desck{
+     display: flex;
+     
+   
+    }
+ 
+     .content{
+        
+         width: 40vw;
+         height: 40vh;
+         position: relative;
+         top: 10em;
+     }
+ 
+     
+ 
+     .imagem{
+ 
+         
+         width: 41vw;
+         height: 14vh;
+         display: flex;
+         justify-content: right;
+ 
+     }
+ 
+ 
+   
+ 
+     .imagem img{
+ 
+ 
+         box-shadow: 3px 9px 56px rgb(146, 26, 170);
+         border-radius: 0%;
+         width: 26em;
+         height: 34em;
+         position: relative;
+ 
+       
+     }
+ 
+     hr{
+         margin-top: 50px;
+         display: inline-block;
+         width: 300px;
+     }
+     
+ }
+ 

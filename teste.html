@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+     
+
+    .box{
+        position: absolute;
+        top: 50% ;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color:rgba(0, 0, 0, 0.6) ;
+        padding: 15px;
+    }
+
+     .box-circle svg{
+        
+        rotate: -90deg;
+        width: 150px;
+        height: 150px;
+        position: relative;
+
+    }
+
+    circle{
+        width: 150px;
+        height: 150px;
+        fill: none; /*cor de fundo */
+        stroke:black;
+        stroke-width: 4;
+        transform: translate(38px, 58px);
+        stroke-dasharray: 290;
+        stroke-dashoffset:440 ; /*distancia entre o inicio e fim */
+      
+    }
+
+    circle:nth-child(1){
+        
+        stroke-dashoffset: 0;
+        stroke: gray;
+    }
+
+    circle:nth-child(2){
+        stroke-dashoffset: 80;
+        stroke: aqua;
+        
+        border-radius: 20px;
+    }
+
+    .number{
+        transform: translate(50px, -100px);
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="box-circle">
+            <svg>
+                <circle cx="10" cy="10" r="40"></circle>
+                <circle cx="10" cy="10" r="40"></circle>
+            </svg>
+        </div>
+        <div class="number">
+            <h2>JS</h2>
+        </div>
+    </div>
+
+</body>
+</html>
